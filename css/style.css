@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    background-color: rgb(187, 0, 0);
+    
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.poke-container-search{
+	text-align:center;
+}
+.searchBar {
+    text-align: center;
+    margin-top: 3rem;
+    color: #fff;
+    font-size: 14px;
+}
+.botonbuscador {
+    border: none;
+    width: 35px;
+    height: 26px;
+    background-color: rgba(36, 46, 156, 0.986);
+    color: #fff;
+}
+
+section img {
+    margin-top: 30px;
+}
+
+#botonesprimeros {
+    margin-top: -5rem;
+}
+
+#botonesegundos {
+    margin-top: -4rem;
+}
+.row {
+    display: flex;
+    justify-content: flex-start; 
+    margin-top: -4rem;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.card {
+    background-color: #fa709900;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+.card img {
+    width: 120px;
+    margin:auto;
+    margin-top: 15px;
+}
+
+.card h5 {
+    margin-top: 40px ;
+    font-size: 16px;  
+    margin-left: -2rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-decoration: none; 
+  
+}
+
+.boton1 {
+    margin: 6rem;
+    border: none;
+    background: rgb(231, 171, 5);
+    color: #fff;
+    height: 30px;
+    border-radius: 5%;
+}
+
+.boton2 {
+    margin: 6rem;
+    border: none;
+    background: rgb(231, 171, 5);
+    color: #fff;
+    height: 30px;
+    border-radius: 5%;
+}
+
+.flip-box {
+  background-color: transparent;
+  height: 100px;
+  perspective: 800px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 145%;
+  margin-left: -15px;
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-frontface-visibility:hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+ background-color: rgba(36, 46, 156, 0.986);
+ border-radius: 50%;
+
+}
+
+.flip-box-back {
+  background-color: rgba(36, 46, 156, 0.986);
+  transform: rotateX(180deg);
+  border-radius: 50%;
+  border:none;
+}
+
+
+.btn {
+    width: 75px;
+    height: 35px;
+    color: #fff;
+    background-color: rgb(231, 171, 5);
+    border: none;
+    margin-left: -2rem;
+}
+
+.modal-content{
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 520px;
+    width: 530px;
+}
